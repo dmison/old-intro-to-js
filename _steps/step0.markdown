@@ -20,4 +20,12 @@ keywords:
 
 ---
 
-The first thing we do when starting a new Node.js project is create a `package.json` file.
+Content from Trello board: before we get started learning about JS, you need to know a little about HTML
+
+what a webpage/html is and how JS is included in it.
+
+reuse some of the "about editors" content from node workshop perhaps?
+
+step through simple example (create html, js file),
+
+demo: comments, alert()

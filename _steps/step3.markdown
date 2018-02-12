@@ -2,22 +2,48 @@
 layout: step
 number: 3
 part: 1
-title: alert()
+title: Operators
 permalink: step3/
 
 keywords:
   - term: package.json
     define: A `package.json` is the file used to store information about a Node.js project, such as its name and its dependencies. Read more [here](https://docs.npmjs.com/files/package.json).
 
-  - term: dependencies
-    define: Dependencies are external code packages that are required to run your project.
-
-  - term: npm
-    define: npm is a "package manager" for Node.js, meaning it allows you to easily install external packages (or chunks of code) published by others and use them in your project.
-
-  - term: npm init
-    define: The command used to create a new `package.json` file.  By default it will prompt the user for information, but using the `-y` flag will cause it to use the default values for each.
-
 ---
+There are a bunch of different operators in programming. We will look
+through arithmetical operators now. 
+#### ARITHMETICAL OPERATORS
+JavaScript includes several standard
+arithmetical operators (+, -, /, *) that you can use to do maths with your
+numbers.
 
-The first thing we do when starting a new Node.js project is create a `package.json` file.
+```javascript
+var sumOfNumbers = 1 + 3;
+alert(sumOfNumbers);
+```
+
+This will pop-up an alert box with the number 4.
+
+TIP: Note how we didn't put 1 and 3 in quotes, because they are numbers.
+
+#### COMPARISON OPERATORS
+
+JavaScript's Comparison operators are used
+to compare values(>, <, <=, =>, ==, !=). Most of them you know from math
+classes in school, some of them can be new for you, so '==' is checking
+equality, if two values are equal.
+'!=' - Checks if they are not equal.
+
+Alert : Don't mix up '=' and '==' as they have different meanings.
+
+----
+
+#### TASKS TO DO
+1. Create 3 variables:
+ * 1st variable named ten with value 10 inside
+ * 2nd variable named three with value 3
+ * 3rd variable named multipleOfNumbers that will be equal to 1st variable multiplied by the 2nd variable.
+2. As a result, display the value of multipleOfNumbers.
+
+
+
