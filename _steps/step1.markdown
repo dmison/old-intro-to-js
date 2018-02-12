@@ -2,22 +2,60 @@
 layout: step
 number: 1
 part: 1
-title: Comments
+title: Comments - Logging - Alert
 permalink: step1/
 
 keywords:
-  - term: package.json
-    define: A `package.json` is the file used to store information about a Node.js project, such as its name and its dependencies. Read more [here](https://docs.npmjs.com/files/package.json).
-
-  - term: dependencies
-    define: Dependencies are external code packages that are required to run your project.
-
-  - term: npm
-    define: npm is a "package manager" for Node.js, meaning it allows you to easily install external packages (or chunks of code) published by others and use them in your project.
-
-  - term: npm init
-    define: The command used to create a new `package.json` file.  By default it will prompt the user for information, but using the `-y` flag will cause it to use the default values for each.
-
+  - term: xxx
+    define: xxx
 ---
+#### COMMENTS 
+Let's start with comments.
 
-The first thing we do when starting a new Node.js project is create a `package.json` file.
+```javascript
+// This is a comment
+```
+Comments are notes that people can read and computers will ignore.
+
+```javascript
+// This is a single line comment.
+```
+
+```javascript
+/*
+  Multi-line comments look like this.
+  You can use comments to write a description for your code block 
+  or notes. 
+*/
+```
+#### CONSOLE.LOG()
+
+Let's continue with getting your code on the screen.
+
+There are a few ways you can do it and we will look into a few of them:
+
+```javascript
+console.log('Hello World!');
+```
+
+This line of code will print 'Hello World!' to the browser's console.
+
+NOTE: To see the browser's console you can right click on the window of your
+browser (Chrome, Firefox etc) and select 'Inspect' or 'Inspect element'.
+After that a console will appear on the bottom right side of the page.
+
+#### ALERT()
+
+```javascript
+alert('Hello girls!');
+```
+This line of code will pop-up a small window in your browser with the text
+'Hello girls!' in it, but you need to refresh the opened page first.
+
+----
+
+#### TASKS TO DO
+
+1. Try to console.log the message to the browser. Send any message you like.
+2. Try to create an alert with any phrase you like.
+3. Comment out your alert code  (put `//` on the line where your code is and save the changes). After you refresh the page, it should not pop-up anymore.
