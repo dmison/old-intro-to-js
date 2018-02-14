@@ -1,9 +1,9 @@
 ---
 layout: step
-number: 2
+number: 3
 part: 1
 title: Variables and Data Types
-permalink: step2/
+permalink: step3/
 
 keywords:
   - term: package.json

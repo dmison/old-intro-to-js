@@ -2,7 +2,7 @@
 layout: step
 number: 5
 part: 1
-title: Conditional Statements
+title: Conditionals
 permalink: step5/
 
 keywords:

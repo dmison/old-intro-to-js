@@ -4,6 +4,20 @@
   <ul class="main">
     <li class="{% if page.url == '/' }} %}active{% endif %}"><a  href="{{ '/' | relative_url }}">Home</a></li>
   </ul>
+
+  <h3>Part 0 - Getting Started</h3>
+  <ul>
+  {% for step in steps %}
+    {% if step.part == 0 %}
+      <li class='{% if page.number == step.number %}active{% endif %}'>
+        <a href="{{ step.url | relative_url }}">
+          {% if step.number != "start" %}{{step.number}} - {% endif %}{{ step.title | escape }}
+        </a>
+      </li>
+      {% endif %}
+  {% endfor %}
+  </ul>
+
   
   <h3>Part 1 - Basics</h3>
   <ul>
@@ -31,7 +45,7 @@
   {% endfor %}
   </ul>
 
-  <h3>Challenges</h3>
+  <!-- <h3>Challenges</h3>
   <ul>
   {% for challenge in site.challenges %}
       <li class='{% if page.cnumber == challenge.cnumber %}active{% endif %}'>
@@ -40,7 +54,7 @@
         </a>
       </li>
   {% endfor %}
-  </ul>
+  </ul> -->
 
   <ul class="main">
     <!-- <li class="{% if page.url == '/troubleshooting/' }} %}active{% endif %}"><a href="{{ '/troubleshooting/' | relative_url }}">Troubleshooting</a></li> -->

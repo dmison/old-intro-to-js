@@ -1,33 +1,15 @@
 ---
 layout: step
-number: 1
-part: 1
-title: Comments - Logging - Alert
-permalink: step1/
+number: 2
+part: 0
+title: Adding some JavaScript
+permalink: step2/
 
 keywords:
-  - term: xxx
-    define: xxx
+#  - term: package.json
+#    define: A `package.json` is the file used to store information about a Node.js project, such as its name and its dependencies. Read more [here](https://docs.npmjs.com/files/package.json).
+
 ---
-#### COMMENTS 
-Let's start with comments.
-
-```javascript
-// This is a comment
-```
-Comments are notes that people can read and computers will ignore.
-
-```javascript
-// This is a single line comment.
-```
-
-```javascript
-/*
-  Multi-line comments look like this.
-  You can use comments to write a description for your code block 
-  or notes. 
-*/
-```
 #### CONSOLE.LOG()
 
 Let's continue with getting your code on the screen.
@@ -52,6 +34,27 @@ alert('Hello girls!');
 This line of code will pop-up a small window in your browser with the text
 'Hello girls!' in it, but you need to refresh the opened page first.
 
+
+#### COMMENTS 
+Let's start with comments.
+
+```javascript
+// This is a comment
+```
+Comments are notes that people can read and computers will ignore.
+
+```javascript
+// This is a single line comment.
+```
+
+```javascript
+/*
+  Multi-line comments look like this.
+  You can use comments to write a description for your code block 
+  or notes. 
+*/
+```
+
 ----
 
 #### TASKS TO DO
@@ -59,3 +62,4 @@ This line of code will pop-up a small window in your browser with the text
 1. Try to console.log the message to the browser. Send any message you like.
 2. Try to create an alert with any phrase you like.
 3. Comment out your alert code  (put `//` on the line where your code is and save the changes). After you refresh the page, it should not pop-up anymore.
+

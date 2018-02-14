@@ -1,9 +1,9 @@
 ---
 layout: step
-number: 3
+number: 4
 part: 1
 title: Operators
-permalink: step3/
+permalink: step4/
 
 keywords:
   - term: package.json
