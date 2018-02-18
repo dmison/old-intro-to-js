@@ -9,7 +9,32 @@ number: start
 
 
 
-## Why JavaScript?
+## What is JavaScript?
+
+Javascript is a programming language which was designed originally for adding interactivity to web pages.  
+
+Without Javascript, a webpage can't change once it has arrived in your browser, every click requires that your browser go to the server and get a whole new page. So slow.
+
+With Javascript, a webpage can react to your actions and change itself without having to reload the entire page every time.  
+
+A nice example of this is [Google Maps](https://www.google.com.au/maps).  After it loads the first time you can click an scroll around the map,  switch between satellite and map view, even go into Street View, all without it causing the page to reload.  
+
+## Why learn JavaScript?
+
+Learning Javascript is a good idea for so many reasons.
+
+Firstly, it's a core part of the modern web.  Almost all highly interactive web sites make heavy use of JavaScript to drive their UI in someway.  If you are interested in building the frontend user experience, JavaScript is a requirement.
+
+Second, with the advent of Node.js it is possible to also use JavaScript to create both server-side and desktop applications.
+
+And third, tools like Cordova and React Native make it possible to also build mobile applications with JavaScript.
+
+It's increasingly the case that if you ask "Can I do that with Javascript?", the answer is yes.
+
+Javascript isn't going anywhere, and the demand for developers with Javascript skills will only continue to grow. 
+
+<!-- And for those who already work in other languages,  Javascript has some advanced features that are relatively rare in other languages.  Learning to program with these can really change your perspective.  These include first-class functions, prototype-base inheritence, and closures.  While we won't be covering these you will still need to cover the basics first. -->
+
 
 <!-- [Node.js](https://nodejs.org/en/) is an open source and cross-platform JavaScript runtime that breaks Javascript out of the confines of the browser and lets you write and run Javascript applications on the server and on your desktop. 
 
@@ -27,6 +52,8 @@ The future is obviously written in Javascript, so the better question is: Why no
 
 
 ## Prerequisites
+
+For beginners, it's great because it's easy to get started.  You don't need to learn any specialised, complicated tools.  All you need is the browser you already have.  
 
 <!-- We have tried our best to make the workshop beginner friendly.
 
