@@ -1,9 +1,9 @@
 ---
 layout: step
-number: 6
+number: 7
 part: 1
 title: Loops
-permalink: step6/
+permalink: step7/
 
 keywords:
 #  - term: package.json

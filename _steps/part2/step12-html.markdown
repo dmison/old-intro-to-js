@@ -1,9 +1,9 @@
 ---
 layout: step
-number: 10
+number: 12
 part: 2
 title: html
-permalink: step10/
+permalink: step12/
 
 keywords:
   - term: package.json

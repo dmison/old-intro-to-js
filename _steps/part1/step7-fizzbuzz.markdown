@@ -1,9 +1,9 @@
 ---
 layout: step
-number: 7
+number: 8
 part: 1
 title: "Exercise: FizzBuzz"
-permalink: step7/
+permalink: step8/
 
 keywords:
 #  - term: package.json

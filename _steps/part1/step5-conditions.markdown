@@ -1,9 +1,9 @@
 ---
 layout: step
-number: 5
+number: 6
 part: 1
 title: Conditionals
-permalink: step5/
+permalink: step6/
 
 keywords:
   - term: package.json

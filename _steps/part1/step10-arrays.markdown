@@ -1,9 +1,9 @@
 ---
 layout: step
-number: 9
+number: 10
 part: 1
 title: Arrays
-permalink: step9/
+permalink: step10/
 
 keywords:
 #  - term: package.json
