@@ -5,13 +5,13 @@ part: 1
 title: Variables and Data Types
 permalink: step4/
 
-keywords:
-  - term: package.json
-    define: A `package.json` is the file used to store information about a Node.js project, such as its name and its dependencies. Read more [here](https://docs.npmjs.com/files/package.json).
+#keywords:
+#  - term: variable
+#    define: 
 
 ---
 
-#### VARIABLES
+In almost every program you will be manipulating or examining data of some sort.
 
 A variable is a place to store information. To create (also called declare) a
 variable use the keyword 'var', as follows:

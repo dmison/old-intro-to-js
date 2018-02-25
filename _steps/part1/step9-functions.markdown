@@ -5,12 +5,12 @@ part: 1
 title: Functions
 permalink: step9/
 
-keywords:
-#  - term: package.json
-#    define: A `package.json` is the file used to store information about a Node.js project, such as its name and its dependencies. Read more [here](https://docs.npmjs.com/files/package.json).
-
+#keywords:
+#  - term:
+#    define: 
 
 ---
+
 A function is like a blueprint, an action that you want to do.
 It takes some input variables called arguments, does some manipulation on
 it and returns the output. Use the keyword 'return' to define the return value.

@@ -5,11 +5,12 @@ part: 1
 title: Operators
 permalink: step5/
 
-keywords:
-  - term: package.json
-    define: A `package.json` is the file used to store information about a Node.js project, such as its name and its dependencies. Read more [here](https://docs.npmjs.com/files/package.json).
+#keywords:
+#  - term:
+#    define: 
 
 ---
+
 There are a bunch of different operators in programming. We will look
 through arithmetical operators now.
 #### ARITHMETICAL OPERATORS
