@@ -1,9 +1,9 @@
 ---
 layout: step
-number: 4
+number: 5
 part: 1
 title: Operators
-permalink: step4/
+permalink: step5/
 
 keywords:
   - term: package.json
@@ -11,7 +11,7 @@ keywords:
 
 ---
 There are a bunch of different operators in programming. We will look
-through arithmetical operators now. 
+through arithmetical operators now.
 #### ARITHMETICAL OPERATORS
 JavaScript includes several standard
 arithmetical operators (+, -, /, *) that you can use to do maths with your
@@ -44,6 +44,3 @@ Alert : Don't mix up '=' and '==' as they have different meanings.
  * 2nd variable named three with value 3
  * 3rd variable named multipleOfNumbers that will be equal to 1st variable multiplied by the 2nd variable.
 2. As a result, display the value of multipleOfNumbers.
-
-
-
