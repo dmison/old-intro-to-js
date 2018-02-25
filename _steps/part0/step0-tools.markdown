@@ -17,22 +17,22 @@ console.log('oh hey there!')
 
 One of the really nice things about Javascript (and web design in general really) is how little you need to get started.  
 
-There are many, many tools which you *can* learn which can make things easier when you start to build bigger more complex applications but you don't need them.
+There are many, many tools that you *can* learn, which can make things easier when you start to build bigger more complex applications - but you don't actually need them.
 
-The only two things you really need are: 
+The only two things you really need are:
 
 1. an editor
-2. a webbrowser and its developer tools. 
+2. a web browser and its developer tools.
 
 ## Your Editor
 
-Before you get started you are going need a program to write your Javascript source code in.  We call that your editor.
+The first thing you need is an *editor* to write your Javascript source code in.
 
-Any program that can edit plain text files will work, such as NotePad on Windows or TextEdit on macOS.  You cannot use a word processor like Microsoft Word, Apple's Pages, or OpenOffice.
+Any program that can edit plain text files will work. Most operating systems have one installed by default, like NotePad on Windows or TextEdit on macOS.  You cannot use a word processor like Microsoft Word, Apple's Pages, or OpenOffice to write source code, because these programs include all sorts of information instead of just plain text.
 
 While NotePad or TextEdit will do the job, you can download free and open-source editors which provide some additional features to make writing program source code a little more pleasant.  
 
-If you are just getting started we recommend [Github's Atom](https://atom.io/)
+If you are just getting started we recommend [Github's Atom](https://atom.io/).
 
 Atom is free, open-source, and available for Windows, macOS, and Linux.
 
@@ -40,16 +40,16 @@ For convenience, we will assume that you are using Atom for the rest of this wor
 
 ## WebBrowser Developer Tools
 
-We are going to assume you already have a web browser.  :smile:
+Since you're viewing this webpage, we are going to assume you already have a web browser.  :smile:
 
 All of the modern mainstream web browsers (Chrome, Firefox, Safari, Internet Explorer, Edge) include their own set of Developer Tools AKA Dev Tools.  
 
-Dev Tools provide you an way to see what is going on behind the scenes in whatever web page you currently have open in the browser. 
+Dev Tools provide you an way to see what is going on behind the scenes in whatever web page you currently have open in the browser.
 
 Browser Dev Tools are useful for:
 
 1. Trying to figure out why your page isn't doing the thing you expect it to do (AKA debugging)
-2. Checking out other people's webpages to learn how they did a particular thing.
+2. Checking out the code that makes up other people's web pages to learn how they did a particular thing.
 
 Different browsers generally cover the same basic functionality with their Dev Tools, but they each do it in their own way with slightly different interfaces and with some features unique to themselves.  
 
@@ -67,17 +67,15 @@ Click on the Menu icon, select More Tools, and then Developer Tools.  Or press `
 
 Click on the Menu icon, select Web Developer, and then Toggle Tools.  Or press `ctrl-shift-i`.
 
-
-
 ##### Safari
 
 Safari's Dev Tools are disabled by default. To enable them go to Safari's Preferences and enable it on the Advanced tab.
 
-Then you will be able to access the Dev Tools using the Develop menu. 
+Then you will be able to access the Dev Tools using the Develop menu.
 
 ##### Internet Explorer & Microsoft Edge
 
-
+Press the `F12` button on your keyboard while you are in Internet Explorer or Microsoft Edge. This might not work if your F keys are bound to other functions like volume or media control - in this case, you need to press `fn-F12`.
 
 #### Checkout the console
 
