@@ -15,7 +15,9 @@ All programming languages have constructs called *operators*. An operator is a c
 
 You're already familiar with operators from when you learned maths: `+` is an operator that represents the action of *addition*. When we use `+` in maths, we take whatever is in front of the `+` and add whatever comes after the `+` to it.
 
-Operators in programming work the same way. There are lots of operators for doing maths, called *arithmetical* operators. But there are also operators for concepts in logic, like *and* and *or*, and for many other things. The dot `.` and the parentheses `()` in `console.log()` are operators, too, but these are a little more complicated.
+Operators in programming work the same way. There are lots of operators for doing maths, called *arithmetical* operators. But there are also operators for concepts in logic, like *and* and *or*, and for many other things. For example, you've already used the assignment operator, `=`, to assign a value to your variable in the last step.
+
+TIP: The dot `.` and the parentheses `()` in `console.log()` are operators, too, but because these are part of the languages that Javascript is based on, you might not see these listed as operators in other courses.
 
 We're going to start with *arithmetical* operators, since you already understand how most of them work in the real world.
 
@@ -29,17 +31,22 @@ alert(sumOfNumbers);
 
 This will pop-up an alert box with the number 4.
 
-TIP: Note how we didn't put 1 and 3 in quotes, because they are numbers.
+TIP: Because we're working with numbers here, we don't need quotes around our values, 1 and 3.
 
 #### COMPARISON OPERATORS
 
-JavaScript's Comparison operators are used
-to compare values (>, <, <=, =>, ==, !=). Most of them you know from math
-classes in school, some of them can be new for you, so '==' is checking
-equality, if two values are equal.
-'!=' - Checks if they are not equal.
+Comparison operators are used to compare values. Javascript's comparison operators are:
 
-Alert : Don't mix up '=' and '==' as they have different meanings.
+* `<` greater than
+* `>` less than
+* `<=` greater than or equal to
+* `=>` less than or equal to
+* `==` equal to
+* `!=` not equal to
+
+You'll have used some of these in maths, though they might be written differently on a computer to how you're used to writing them by hand.
+
+Just make sure to remember that the assignment operator `=` is different from the equal to operator `==`. They do different things.
 
 ----
 
