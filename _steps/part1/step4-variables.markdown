@@ -1,9 +1,9 @@
 ---
 layout: step
-number: 5
+number: 4
 part: 1
 title: Variables and Data Types
-permalink: step5/
+permalink: step4/
 
 keywords:
   - term: package.json
@@ -34,7 +34,7 @@ var newVariable = 1;
 ```
 #### DATA STRUCTURES AND TYPES
 
-As you can notice, we can give different types of values to our variables. 
+As you can notice, we can give different types of values to our variables.
 
 | DATA TYPE        | DESCRIPTION        |
 | -----------------|--------------------|
@@ -43,7 +43,7 @@ As you can notice, we can give different types of values to our variables.
 | **Boolean**      |true or false|
 | **null**         | A special keyword denoting a null value.  |
 | **undefined**    |A top-level property whose value is not defined. |
-| **Symbol**       |A data type whose instances are unique and immutable. | 
+| **Symbol**       |A data type whose instances are unique and immutable. |
 | **Object**       |some description |
 
 
