@@ -107,7 +107,7 @@ What do you think happens if the first string was wrapped in double-quotes, or i
 
 Try it out and see.
 
-In the next step when we talk about operators, we will also talk about another data type: Numbers.
+In the next step when we talk about operators we will also talk about another data type: Numbers.
 
 
 
