@@ -40,11 +40,11 @@ So what does `console.log()` do exactly?
 
 `console.log()` tells the browser to display messages and other information in the Dev Tools console.  We call these 'console' or 'log' messages, and they only appear in the Dev Tools Console. Anyone interacting with your webpage isn't going to see them unless they open the Dev Tools Console.
 
-`console.log()` is for you (the developer) to use when **debugging**.  That is when you trying to figure out why something isn't working as you expected it to.  It's also common to use it when you are learning a new thing.  You can use `console.log()` to display error & status messages or anything else which you think might help you.
+`console.log()` is for you (the developer) to use when **debugging**.  That is when you are trying to figure out why something isn't working as you expected it to.  It's also common to use it when you are learning a new thing.  You can use `console.log()` to display error & status messages, or anything else which you think might help you.
 
 We'll use it many times in this workshop to make sure you can see what is happening in the code. You can remove them if you like - just remember that `console.log()` is useful when you're trying to debug a problem.
 
-Also sometimes developers leave messages like this for other developers who might be looking at their pages in the Dev Tools.
+Also sometimes developers leave messages like this (Easter Eggs) for other developers who might be looking at their pages in the Dev Tools.
 
 #### alert()
 
@@ -79,7 +79,7 @@ Where your `<script>` tags are doesn't always matter - it depends on what your J
 
 By the way, you can put as many `<script>` tags into a document as you want.
 
-What do you think would happen if you had `<script>` tags with alerts both in `<head>` and after `<body>`?  Or how about inside the `<body>` tag, part way through? Try it out and see.
+What do you think would happen if you had `<script>` tags with alerts both in `<head>` and after `<body>`?  Or how about inside the `<body>` tag, maybe part way through? Try it out and see.
 
 #### External Javascript files.
 

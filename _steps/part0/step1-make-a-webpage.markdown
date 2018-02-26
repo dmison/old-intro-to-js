@@ -69,7 +69,7 @@ Unlike a programming language, a markup language isn't a series of instructions 
 
 HTML is made up of what we call **tags**.  Tags are how we tell the browser what type of content something is in a page.
 
-Lets look at the example above, specically the line:
+Lets look at the example above, specifically the line:
 
 ```html
 <h1>Node Girls</h1>
@@ -77,9 +77,9 @@ Lets look at the example above, specically the line:
 
 The content here is the text `Node Girls` and it is *"marked-up"* with the `h1` tag.  By *marked-up* we mean that this piece of text is preceeded by an opening tag `<h1>` and following by the corresponding closing tag `</h1>`
 
- is a Header tag.  Specially it is the level 1 header.
+`<h1>` is a Level 1 Header tag.
 
-You can see these in the content above as the bits with `<` `>` around them.  Notice that there are actually two parts to each tag, an **opening tag** with `<` & `>`, and a **closing tag** with `<` and `/`
+You can see these in the content above as the bits with `<` `>` around them.  Notice that there are actually two parts to each tag, an **opening tag** with `<` & `>`, and a **closing tag** with `</` and `>`
 
 There are around 120 tags defined in the current version of HTML (version 5) but many of those are for very specific cases.
 
