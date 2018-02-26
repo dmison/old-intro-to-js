@@ -26,7 +26,7 @@ var greeting;
 ```
 
 So, we created a variable named `greeting`, but it has no value inside.  It is empty. To give our variable a value 
-using `=` sign:
+we use the `=` sign:
 
 ```javascript
 greeting = 'Hello everyone!';
@@ -38,7 +38,7 @@ This is called **assigning a value** to the variable.  The `=` is called the **a
 
 The first time variable is assigned a value the variable is said to be **initialized**.
 
-We also can create and give value to a variable in one step, as follows:
+We also can create and give a value to a variable in one step, as follows:
 
 ```javascript
 var whatTheFoxSays = 'yow-wow-wow-wow';
@@ -48,14 +48,14 @@ var whatTheFoxSays = 'yow-wow-wow-wow';
 
 So now we can create variables and can assign values to them.  So what can we do with them?  
 
-We can use a variable in anyplace where we could use a value, like in `alert()` & `console.log()` for example.  
+We can use a variable in any place where we could use a value, like in `alert()` & `console.log()` for example.  
 
 ```javascript
 var greeting = 'Hello everyone!';
 alert(greeting);
 ```
 
-And since you can use a variable anyplace you can use a value, you can of course use variables to assign values too:
+And since you can use a variable any place you can use a value, you can of course use variables to assign values too:
 
 ```javascript
 var whatTheFoxSays = 'yow-wow-wow-wow';
@@ -107,7 +107,7 @@ What do you think happens if the first string was wrapped in double-quotes, or i
 
 Try it out and see.
 
-In the next step when we talk about operators we will also talk about another data type: Numbers.
+In the next step when we talk about operators, we will also talk about another data type: Numbers.
 
 
 
